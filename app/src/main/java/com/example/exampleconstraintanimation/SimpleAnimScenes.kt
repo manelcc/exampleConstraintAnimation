@@ -10,7 +10,7 @@ import androidx.transition.TransitionManager
 import kotlinx.android.synthetic.main.activity_anim.*
 
 
-class AnimConstraintSet : AppCompatActivity() {
+class SimpleAnimScenes : AppCompatActivity() {
 
     private lateinit var scene1: Scene
     private lateinit var scene2: Scene

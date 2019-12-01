@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setSupportActionBar(toolbar)
 
         btnSimpleConstraint.setOnClickListener {startActivity(Intent(this, SimpleConstraintAnimation::class.java))}
-        btnConstraintSet.setOnClickListener {startActivity(Intent(this, AnimConstraintSet::class.java))}
+        btnConstraintSet.setOnClickListener {startActivity(Intent(this, SimpleAnimScenes::class.java))}
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
