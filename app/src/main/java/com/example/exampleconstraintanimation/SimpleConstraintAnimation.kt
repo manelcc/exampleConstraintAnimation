@@ -20,7 +20,9 @@ class SimpleConstraintAnimation : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.simpleconstraint_scene1)
+        //Transicion con animación simple por xml
         transition = TransitionInflater.from(this).inflateTransition(R.transition.simple_animation)
+        //Transicion controlando los fade de los AppCompatTextView
         transition2 = TransitionInflater.from(this).inflateTransition(R.transition.simple_animation2)
         constraintLayout.setOnClickListener { actionEventTouch() }
 
