@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ExampleConstraintAnimation</string>
+    <string name="action_settings">Settings</string>
+    <string name="description_torre_effiel">Torre Eiffel. Construida en 1889 para la Exposición Universal, la Torre Eiffel se convirtió en el principal símbolo de París y es el monumento más visitado del mundo. La Torre Eiffel es una construcción de hierro de 300 metros de altura que fue creada para la Exposición Universal de París de 1889.</string>
+    <string name="nombre_monumento">LA TORRE EIFFEL</string>
+    <string name="monument_name">La Torre Eiffel</string>
+</resources>
